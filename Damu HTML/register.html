@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="damu3.css">
+        <a href="PhotoPick.html">Home Page</a>
+        <script>
+            function validate()
+            {
+                var password=document.getElementById("ps").value,
+                    confirmpassword=document.getElementById("cnps").value;
+                if(password != confirmpassword)
+                {
+                    alert("Password is not match,try again");
+                    return true;
+                }
+                else
+                    {
+                        var signup = confirm("you can go next step");
+                        
+                    }
+                return true;
+            }
+    </script>
+        <script>
+        </script>
+    </head>
+    <body>
+        <div class="nani">
+            <form onsubmit="validate()" action="register1.html" name="signup">
+                <p>SignUp</p>
+                <input type="text"  name=""placeholder="Firstname" id="fn" required>
+                <input type="text" name=""placeholder="lastname" id="ln" required>
+                <input type="date" name=""placeholder="DOB" id="date" required>
+                <input type="password" name="" placeholder="password" id="ps" required>
+                <input type="confirmpassword" name="" placeholder="confirmpassword" id="cnps" required>
+                <input type="submit" onclick="Register()" value="Next">
+            </form>
+        </div>
+    </body>
+</html>

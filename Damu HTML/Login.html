@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="damu2.css">
+        <a href="PhotoPick.html">Home Page</a>
+        <script>
+        function validate()
+            {
+                var name=document.getElementById("id1").value;
+                if(isNaN(name))
+                {
+                    return true;
+                }
+                else{
+                    alert("name should not contain number");
+                    } 
+            }
+    </script>
+    <script>
+        function Login()
+        {
+            confirm("You want to Login.\nPress the Button!")
+        }
+        </script>
+    </head>
+    <body>
+        <div class="nani">
+            <form action="PhotoPick.html" name="myform" onsubmit="validate()">
+                <p>Login</p>
+                <input type="text" name=""placeholder="username" id="id1" required>
+                <input type="password" name=""placeholder="password" required>
+                <input type="submit" onclick="Login()" value="Login">
+            </form>
+        </div>
+    </body>
+</html>

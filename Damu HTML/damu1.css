@@ -1,0 +1,146 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-size:cover;
+    background-position:center center;
+    height:100vh;
+}
+nav
+{
+    padding:;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p
+{
+    font-size:30px;
+    font-family: Gill Sans MT;
+}
+span
+{
+    color:orange;
+    font-size:30px;
+    font-family: Gill Sans MT;
+}
+.damu{
+    margin:0 auto;
+}
+.damu ul{
+    list-style:none;
+    color:black;
+}
+.damu ul li{
+    background:white;
+    width:80px;
+    height:19px;
+    color: black;
+    text-align:center;
+    float:left;
+    font-size:17px;
+    position:relative;
+    font-family: Gill Sans MT;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.damu ul li:hover{
+    background:orange;
+    transition: 0.2s;
+    border-radius:4px;
+    color:none;
+}
+.damu ul ul{
+    display:none;
+}
+.damu ul li:hover>ul{
+    display:block;
+    background:none;
+}
+.damu li:hover{
+	color:none;
+}
+.damu1 img
+{
+    display:inline;
+    position:absolute;
+    top: 10%;
+    left: 1%;
+    text-align:center;
+    border-radius: 15px;
+}
+.damu2 img
+{
+    display:block;
+    position:absolute;
+    top: 10%;
+    left: 30%;
+    text-align:center;
+    border-radius: 15px;
+}
+.damu3 img
+{
+    display:block;
+    position:absolute;
+    top: 47%;
+    left: 1%;
+    text-align:center;
+    border-radius: 15px;
+}
+.damu4 img
+{
+    display:block;
+    position:absolute;
+    top: 62%;
+    left: 30%;
+    text-align:center;
+    border-radius: 15px;
+}
+.damu5 img
+{
+    display:block;
+    position:absolute;
+    top: 10%;
+    left: 61%;
+    text-align:center;
+    border-radius: 15px;
+}
+.damu8 img
+{
+    display:block;
+    position:absolute;
+    top: 10%;
+    left: 77%;
+    text-align:center;
+    border-radius: 15px;
+}
+.damu7 img
+{
+    display:block;
+    position:absolute;
+    top: 68%;
+    left: 66%;
+    text-align:center;
+    border-radius: 15px;
+}
+.damu6 img
+{
+    display:block;
+    position:absolute;
+    top: 39%;
+    left: 77%;
+    text-align:center;
+    border-radius: 15px;
+}
+.grid 
+{
+    position:absolute;
+    padding: 40px;
+    top:100%;
+    left:90%;
+    font-size: 20px;
+    font-family:Gill Sans MT;
+}
